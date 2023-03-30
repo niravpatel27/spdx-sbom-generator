@@ -20,7 +20,7 @@ jobs:
 
     ## Publishes our image to Docker Hub 😎
     - name: Publish to Registry
-      uses: elgohr/Publish-Docker-Github-Action@master
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: spdx/spdx-sbom-generator
         username: ${{ secrets.DOCKERHUB_USERNAME }}
